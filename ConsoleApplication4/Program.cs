@@ -15,7 +15,7 @@ namespace ConsoleApplication4
             XmlTextWriter writer = new XmlTextWriter("product.xml", System.Text.Encoding.UTF8);
             writer.WriteStartDocument(true);
             writer.Formatting = Formatting.Indented;
-            writer.Indentation = 2;
+            writer.Indentation = 3;
             writer.WriteStartElement("Table");
             Dictionary<string,string> list = new Dictionary<string,string>();
             list.Add("CARD_HOLDER_PRESENT","1");
